@@ -18,7 +18,7 @@ The endpoint should be paginated
 It should be filterable by state
 Blogs created should have title, description, tags, author, timestamp, state, read_count, reading_time and body.
 The list of blogs endpoint that can be accessed by both logged in and not logged in users should be paginated,
-default it to 20 blogs per page.
+default it to 20 blogs per page. 
 It should also be searchable by author, title and tags.
 It should also be orderable by read_count, reading_time and timestamp
 When a single blog is requested, the api should return the user information(the author) with the blog. The read_count of the blog too should be updated by 1
@@ -35,16 +35,17 @@ Extra points for building the views(optional)
 Database
 
 Use MongoDB
-<200b>Data Models
+​Data Models
 
-User
+User 
 
 – email is required and should be unique
 
 – first_name and last_name is required
 
 – password
-<200b>
+
+​
 
 Blog/Article
 
@@ -68,15 +69,15 @@ Blog/Article
 
 Submission
 
-– Push your code to GitHub
+– Push your code to GitHub 
 
 – Host it on render
 
 – Share the render link and the GitHub link
 
-<200b>Submission Link: 3MTT Backend Engineering – Intermediate Module Assessment
+​Submission Link: 3MTT Backend Engineering – Intermediate Module Assessment
 
-<200b>
+​
 
 Helpful links
 
@@ -84,4 +85,4 @@ Helpful links
 
 – [MongoDB](https://www.mongodb.com/)
 
-
+​
